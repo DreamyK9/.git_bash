@@ -1,5 +1,9 @@
 # Blacklist everything
 *
+# Whitelist bashrc module directory and all its contents
+!.bashrc.d/
+!.bashrc.d/*
+
 # Whitelist only wanted files
 !.gitignore
 !.bashrc
