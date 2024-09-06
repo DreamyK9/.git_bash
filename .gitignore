@@ -1,0 +1,7 @@
+# Blacklist everything
+*
+# Whitelist only wanted files
+!.gitignore
+!.bashrc
+!.bash_profile
+!.inputrc
