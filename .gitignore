@@ -8,6 +8,11 @@
 !.bashrc
 !.bash_profile
 !.inputrc
+# Custom libraries
+!lib/
+!lib/pathtools
 # Custom scripts
 !Scripts/
 !Scripts/pull-configs
+!Scripts/push-configs
+

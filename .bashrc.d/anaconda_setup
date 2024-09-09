@@ -1,19 +1,10 @@
 #!/bin/bash
 # Setup to use anaconda environment
 
+# lib imports
+source ~/lib/pathtools
+# --------------------
 anaconda_path="$HOME/AppData/Local/anaconda3"
-
-# function to append path to $PATH
-# Source: https://superuser.com/a/753948
-pathprepend() {
-  for ((i=$#; i>0; i--)); 
-  do
-    ARG=${!i}
-    if [ -d "$ARG" ] && [[ ":$PATH:" != *":$ARG:"* ]]; then
-        PATH="$ARG${PATH:+":$PATH"}"
-    fi
-  done
-}
 
 if [ -d "$anaconda_path" ]; then
     # Anaconda env setup script
