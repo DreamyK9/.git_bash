@@ -5,17 +5,17 @@
 echo 
 clr_bold clr_green "[NeoVim] ~/AppData/Local/nvim"
 cd ~/AppData/Local/nvim
-git push
+git status
 
 # Windows Terminal
 echo 
 clr_bold clr_green "[Windows Terminal] ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/"
 cd ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/
-git push
+git status
 
 # Git Bash
 echo 
 clr_bold clr_green "[Git Bash] ~"
 cd ~
-git push
+git status
 

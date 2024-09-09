@@ -8,6 +8,7 @@
 !.bashrc
 !.bash_profile
 !.inputrc
+!.bash_colors
 # Custom libraries
 !lib/
 !lib/pathtools
@@ -15,4 +16,4 @@
 !Scripts/
 !Scripts/pull-configs
 !Scripts/push-configs
-
+!Scripts/check-configs

@@ -7,3 +7,4 @@ if [ ! -f /tmp/jwolf-user-configs-fetched ]; then
     touch /tmp/jwolf-user-configs-fetched
     ~/Scripts/pull-configs > /dev/null
 fi
+
