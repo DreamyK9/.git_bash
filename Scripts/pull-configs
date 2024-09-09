@@ -1,0 +1,13 @@
+
+# NeoVim
+cd ~/AppData/Local/nvim
+git pull
+
+# Windows Terminal
+cd ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/
+git pull
+
+# Git Bash
+cd ~
+git pull
+
