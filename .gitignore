@@ -11,7 +11,9 @@
 !.bash_colors
 # Custom libraries
 !lib/
+!lib/bash_colors
 !lib/pathtools
+!lib/config_paths
 # Custom scripts
 !Scripts/
 !Scripts/pull-configs
