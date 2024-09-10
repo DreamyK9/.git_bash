@@ -5,7 +5,7 @@ source ~/lib/config_paths
 # NeoVim
 echo 
 clr_bold clr_green "[NeoVim] $config_nvim"  
-git -C "$config_neovim" push
+git -C "$config_nvim" push
 
 # Windows Terminal
 echo 
