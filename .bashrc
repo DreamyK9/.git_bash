@@ -17,6 +17,10 @@ alias lla="ls -lA"
 alias lh="ls -d .?*"
 alias llh="ls -ld .?*"
 
+# vim aliases
+alias vim="nvim"
+alias vi="vim"
+
 # Custom Scripts
 pathappend ~/Scripts
 
