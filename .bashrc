@@ -21,6 +21,10 @@ alias llh="ls -ld .?*"
 alias vim="nvim"
 alias vi="vim"
 
+# python aliases
+alias ipy="ipython"
+alias py="python"
+
 # Custom Scripts
 pathappend ~/Scripts
 
@@ -32,5 +36,4 @@ pathappend ~/Scripts
 #    TMUX="command tmux ${@}"
 #    SHELL=/usr/bin/bash script -qO /dev/null -c "eval $TMUX"
 #}
-
 
