@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # NeoVim
-config_nvim=~/AppData/Local/nvim
+export config_nvim=~/AppData/Local/nvim
 
 # Windows Terminal
-config_windows_terminal=~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/
+export config_windows_terminal=~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/
 
 # Git Bash
-config_git_bash=~
+export config_git_bash=~
 
